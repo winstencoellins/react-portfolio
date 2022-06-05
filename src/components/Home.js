@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
-import sweResume from '../images/winstenc_swe.pdf'
-import dataScienceResume from '../images/winstenc_datascience.pdf'
+import swe from '../images/winstenc_swe.pdf'
+import data from '../images/winstenc_datascience.pdf'
 
 
 function Home() {
@@ -12,8 +12,8 @@ function Home() {
           <p class="p-name">Winsten Coellins</p>
           <p class="p-job">Software Engineer / Data Scientist</p>
           <ul className="resumes">
-            <li><a href={sweResume}><button className="resume-btn">Software Engineer Resume</button></a></li>    
-            <li><a href={dataScienceResume}><button className="resume-btn">Data Science Resume</button></a></li>    
+            <li><a href={swe}><button className="resume-btn">Software Engineer Resume</button></a></li>    
+            <li><a href={data}><button className="resume-btn">Data Science Resume</button></a></li>    
           </ul>
       </main>
 
