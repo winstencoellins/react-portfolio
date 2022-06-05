@@ -1,0 +1,92 @@
+.home {
+    padding: 50px 0;
+}
+
+.p-greet {
+    font-size: 1rem;
+}
+
+.p-job {
+    font-size: 1.5rem;
+}
+
+.p-name {
+    font-size: 3.5rem;
+}
+
+.home-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recent-work {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recent-hr {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.recent-work-content {
+    margin-top: 5px;
+}
+
+.tech-skills {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tech-skills-hr {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.tech-skills-content {
+    margin-top: 5px;
+}
+
+.resume-btn {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #212121;
+    border-width: 2.5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.resume-btn:hover {
+    background-color: #212121;
+    color: white;
+    transition: .5s;
+}
+
+@media screen and (max-width: 1240px) {
+    .p-name {
+        font-size: 2rem;
+    }
+
+    .p-job {
+        font-size: 1.3rem;
+    }
+
+    .resume-btn {
+        font-size: 12px;
+    }
+}
