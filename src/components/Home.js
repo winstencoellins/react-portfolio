@@ -12,8 +12,8 @@ function Home() {
           <p class="p-name">Winsten Coellins</p>
           <p class="p-job">Software Engineer / Data Scientist</p>
           <ul className="resumes">
-            <li><a href={sweResume} target="_blank"><button className="resume-btn">Software Engineer Resume</button></a></li>    
-            <li><a href={dataScienceResume} target="_blank"><button className="resume-btn">Data Science Resume</button></a></li>    
+            <li><a href={sweResume}><button className="resume-btn">Software Engineer Resume</button></a></li>    
+            <li><a href={dataScienceResume}><button className="resume-btn">Data Science Resume</button></a></li>    
           </ul>
       </main>
 
